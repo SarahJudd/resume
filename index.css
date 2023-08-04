@@ -6,8 +6,11 @@ Secondary Color: #945371
 Tertiary Color: #829463
     Secondary Tertiary Color: #B3E063
 */
+/* TODO:
+    Update colors
+*/
 body {
-    background-color: #67AFE1;
+    background-color: darkolivegreen;
     color: white;
     text-align: center;
 }
@@ -16,4 +19,27 @@ h1,
 h3 {
     color: white;
     text-align: center;
+}
+ul {
+    list-style-type: none;
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left; 
+}
+li a{
+    color:aliceblue;
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: slategray;
+}
+.active{
+    background-color: aquamarine;
 }
