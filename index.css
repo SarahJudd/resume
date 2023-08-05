@@ -1,10 +1,60 @@
 /* This is the default css for the main webpage*/
-body{
-    background-color: darkslategrey;
-    color:bisque;
+/*
+Primary Color: #67AFE1
+Secondary Color: #945371
+    Secondary Secondary Color: #E072A6
+Tertiary Color: #829463
+    Secondary Tertiary Color: #B3E063
+*/
+/* TODO:
+    Update colors
+*/
+body {
+    background-color: #291F26;
+    color: white;
     text-align: center;
 }
-h1, h3{
-    color: beige;
+
+h1,
+h3 {
+    color: white;
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #717575;
+
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+ul li {
+    border-block-start: 10px solid #717575;
+}
+
+ul li:hover {
+    background-color: #4AC2BE;
+    border-block-start: 10px solid white;
+    writing-mode: horizontal-tb;
+    /*background: linear-gradient(0.25turn, #717575, #4AC2BE 25%,#4AC2BE 75%, #717575 ); */
+}
+
+/* Does not work :( */
+.active {
+    background-color: aquamarine;
 }
