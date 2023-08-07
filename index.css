@@ -16,7 +16,8 @@ h3 {
     text-align: center;
 }
 
-ul {
+/* Navigavtion Bar */
+ul#navBar {
     list-style-type: none;
     background-color: #717575;
     border-radius: 25px;
@@ -26,11 +27,12 @@ ul {
     overflow: hidden;
 }
 
-li {
+ul#navBar li {
+    border-block-start: 10px solid #717575;
     float: left;
 }
 
-li a {
+ul#navBar li a {
     color: aliceblue;
     text-shadow: black 2px 1px 2px;
     display: block;
@@ -39,13 +41,10 @@ li a {
     text-decoration-line: none;
 }
 
-ul li {
-    border-block-start: 10px solid #717575;
-}
-
-ul li:hover {
+ul#navBar li:hover {
     background-color: #4AC2BE;
-    color:#291F26; 
-    border-block-start: 10px solid white; /*place in active tab*/
+    color: #291F26;
+    border-block-start: 10px solid white;
+    /*place in active tab*/
     writing-mode: horizontal-tb;
 }
