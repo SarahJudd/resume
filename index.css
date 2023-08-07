@@ -24,7 +24,7 @@ h3 {
 ul {
     list-style-type: none;
     background-color: #717575;
-
+    border-radius: 25px;
 
     margin: 0;
     padding: 0;
@@ -37,10 +37,11 @@ li {
 
 li a {
     color: aliceblue;
+    text-shadow: black 2px 1px 2px;
     display: block;
     text-align: center;
-    padding: 15px 50px;
-    text-decoration: none;
+    padding: 6px 50px 15px;
+    text-decoration-line: none;
 }
 
 ul li {
@@ -49,12 +50,8 @@ ul li {
 
 ul li:hover {
     background-color: #4AC2BE;
-    border-block-start: 10px solid white;
+    color:#291F26; 
+    border-block-start: 10px solid white; /*place in active tab*/
     writing-mode: horizontal-tb;
     /*background: linear-gradient(0.25turn, #717575, #4AC2BE 25%,#4AC2BE 75%, #717575 ); */
-}
-
-/* Does not work :( */
-.active {
-    background-color: aquamarine;
 }
