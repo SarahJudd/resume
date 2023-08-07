@@ -1,13 +1,8 @@
 /* This is the default css for the main webpage*/
 /*
-Primary Color: #67AFE1
-Secondary Color: #945371
-    Secondary Secondary Color: #E072A6
-Tertiary Color: #829463
-    Secondary Tertiary Color: #B3E063
-*/
-/* TODO:
-    Update colors
+Primary Color: #291F26      dark grey
+Secondary Color: #4AC2BE    cyan
+Tertiary Color: #717575     light grey
 */
 body {
     background-color: #291F26;
@@ -21,7 +16,8 @@ h3 {
     text-align: center;
 }
 
-ul {
+/* Navigavtion Bar */
+ul#navBar {
     list-style-type: none;
     background-color: #717575;
     border-radius: 25px;
@@ -31,11 +27,12 @@ ul {
     overflow: hidden;
 }
 
-li {
+ul#navBar li {
+    border-block-start: 10px solid #717575;
     float: left;
 }
 
-li a {
+ul#navBar li a {
     color: aliceblue;
     text-shadow: black 2px 1px 2px;
     display: block;
@@ -44,14 +41,10 @@ li a {
     text-decoration-line: none;
 }
 
-ul li {
-    border-block-start: 10px solid #717575;
-}
-
-ul li:hover {
+ul#navBar li:hover {
     background-color: #4AC2BE;
-    color:#291F26; 
-    border-block-start: 10px solid white; /*place in active tab*/
+    color: #291F26;
+    border-block-start: 10px solid white;
+    /*place in active tab*/
     writing-mode: horizontal-tb;
-    /*background: linear-gradient(0.25turn, #717575, #4AC2BE 25%,#4AC2BE 75%, #717575 ); */
 }
