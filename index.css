@@ -1,13 +1,8 @@
 /* This is the default css for the main webpage*/
 /*
-Primary Color: #67AFE1
-Secondary Color: #945371
-    Secondary Secondary Color: #E072A6
-Tertiary Color: #829463
-    Secondary Tertiary Color: #B3E063
-*/
-/* TODO:
-    Update colors
+Primary Color: #291F26      dark grey
+Secondary Color: #4AC2BE    cyan
+Tertiary Color: #717575     light grey
 */
 body {
     background-color: #291F26;
@@ -53,5 +48,4 @@ ul li:hover {
     color:#291F26; 
     border-block-start: 10px solid white; /*place in active tab*/
     writing-mode: horizontal-tb;
-    /*background: linear-gradient(0.25turn, #717575, #4AC2BE 25%,#4AC2BE 75%, #717575 ); */
 }
