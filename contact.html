@@ -14,8 +14,21 @@
          <!--Add Navigation Bar once finished--> 
     </header> 
     <main>
-        <!-- Add form for contacting me-->
+        <h2> Want to send me an email? Enter the form below!</h2>
         <!-- Send an email to my work email-->
+        <div class="container">
+        <form action="/contact.php" target="_self" method="post" name="contact">
+            <div><label for="fullName"> Name</label>
+            <input type="text" id="fullName" name="fullName"></div><br>
+            <label for="subject"> Subject Line</label>
+            <div><input type="text" id="subject" name="subject"></div><br>
+            <label for="email"> Email </label>
+            <div><input type="text" id="email" name="email"></div><br>
+            <label for="message"> Message</label><br>
+            <div><textarea name="message" id="message"> Enter the message here! </textarea></div><br>
+            <div><input type="submit" value="Submit"></div>
+        </form>
+        </div>
     </main>
     <footer>
         <hr>

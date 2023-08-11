@@ -8,3 +8,73 @@ h1, h3{
     color: beige;
     text-align: center;
 }
+
+/* Navigavtion Bar */
+ul#navBar {
+    list-style-type: none;
+    background-color: #717575;
+    border-radius: 25px;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul#navBar li {
+    border-block-start: 10px solid #717575;
+    float: left;
+}
+
+ul#navBar li a {
+    color: aliceblue;
+    text-shadow: black 2px 1px 2px;
+    display: block;
+    text-align: center;
+    padding: 6px 50px 15px;
+    text-decoration-line: none;
+}
+
+ul#navBar li:hover {
+    background-color: #4AC2BE;
+    color: #291F26;
+    border-block-start: 10px solid white;
+    /*place in active tab*/
+    writing-mode: horizontal-tb;
+}
+
+/*Contact Form*/
+.container{
+    border-radius: 5px;
+    background-color: #717575;
+    padding: 15px;
+    max-width: 60%;
+    text-align: center;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=text] {
+    padding: .5em;
+    margin: 1em;
+    border: none;
+    border-bottom: 2px #4AC2BE;
+}
+input[type=text]:focus{
+    background-color: #a9fff9;
+    border: 1px solid #291F26;
+}
+input[type=textarea]{
+    padding: 1em;
+    width: 50%;
+    height: 300px;
+    resize: none;
+}
+input[type=submit]{
+    background-color: mediumseagreen;
+    padding: .5em;
+    margin: 1em;
+    border: none;
+    border-radius: 5px;
+}
+/* TODO: make form align, and set up php */
